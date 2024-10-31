@@ -16,7 +16,7 @@ const Text = ({ slice }: TextProps): JSX.Element => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-      <header className="absolute inset-x-0 top-0 z-30">
+      <header className="absolute inset-x-0 top-10 z-30">
           <div className="text-center">
             <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
               <PrismicRichText field={slice.primary.heading} />
